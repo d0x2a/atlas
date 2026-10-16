@@ -14,8 +14,8 @@ says what the app sends from your iPhone, why, and what we keep.
 
 - Atlas has no account, no ads, no analytics and no tracking. We don't sell or share your
   information.
-- To plan a route or search, the app sends your location and what you search for to our own
-  servers, which use them only to answer that request.
+- To show the map, plan a route or search, the app asks our own servers. They use what it sends,
+  such as your location and what you search for, only to answer that request.
 
 ## What the app sends, and why
 
@@ -29,17 +29,26 @@ atlas-search.d0x2a.com. It also sends your location, or the middle of the map on
 doesn't have your location, so nearer places come first. When you long-press the map, the app
 sends the spot you pressed to the same service, to find what's there.
 
-**The map** is stored in the app, so showing it sends nothing.
+**The map.** The app fetches the map in small square pieces, called tiles, from our map service at
+atlas-tiles.d0x2a.com, as you look at places on it. Asking for a tile says roughly which area is on
+your screen: at street level, an area about two thirds of a mile across. Like any request over the
+internet it comes from your IP address, but it carries nothing else about you. The app keeps the
+tiles it fetches on your iPhone, so it doesn't ask for them again. When you start navigating, it
+also fetches the tiles along your route, so the map keeps working where there's no signal. If you
+download all of Southern California in the app's settings, it fetches every tile once and then asks
+for none.
 
 Nothing else leaves your iPhone. The app never sends your name, contacts, photos, device
 identifiers or advertising identifier.
 
 ## What we keep
 
-Our services answer each request and don't store your routes or searches. Like any web service,
-they keep short technical logs: the time, the IP address, and the address requested, which for a
-search includes its text and the location sent with it, and for a long-press the spot pressed. We use these logs only to keep the
-services running and secure, delete them within 30 days, and never use them to identify you.
+Our services answer each request and don't store your routes or searches. Our map service keeps no
+record of which tiles are asked for. Like any web service, the routing and search services keep
+short technical logs: the time, the IP address, and the address requested, which for a search
+includes its text and the location sent with it, and for a long-press the spot pressed. We use
+these logs only to keep the services running and secure, delete them within 30 days, and never use
+them to identify you.
 
 ## Location on your iPhone
 
@@ -54,7 +63,8 @@ iPhone.
 
 ## Who else is involved
 
-- **Cloudflare** carries and protects the requests to our services.
+- **Cloudflare** carries and protects the requests to our services, and keeps copies of the map's
+  tiles so they load quickly.
 - **OVHcloud** hosts our servers.
 - **OpenStreetMap** contributors made the map data. The app sends nothing to OpenStreetMap.
 - **Apple** may share crash reports and usage data with us if you allow sharing with app

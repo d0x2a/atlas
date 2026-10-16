@@ -45,8 +45,9 @@ from your desk or from anywhere.
 
 ## Good to know
 
-- The map is stored in the app, so it draws without a signal. Search and routes need a
-  connection.
+- The map keeps what you've seen and the route you're driving, so a dead zone doesn't blank it.
+  Download all of Southern California (375 MB) to have every street without a signal. Search and
+  routes need a connection.
 - Arrival times don't include live traffic.
 - No account, no ads, no tracking. The [privacy policy](privacy.md) says what the app sends.
 - Questions or problems: [support](support.md).

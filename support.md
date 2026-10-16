@@ -16,8 +16,14 @@ border, east to San Bernardino, Riverside and Temecula. Outside that area the ma
 routes aren't available, but Demo drive still shows how navigation works.
 
 **What does it need?**
-An iPhone with iOS 17 or later. The map is stored in the app and draws without a signal. Search
-and routes need an internet connection.
+An iPhone with iOS 17 or later, and an internet connection: the app fetches the map as you look
+around, and search and routes come from our servers.
+
+**Does the map work without a signal?**
+Atlas keeps the parts of the map you've looked at. When you start navigating it also fetches the
+map along your route, so a dead zone doesn't blank it. To have all of Southern California on your
+iPhone, open the app's settings (the button above the locate button) and tap **Download Southern
+California**: 375 MB, over Wi-Fi. Search and new routes still need a connection.
 
 **Atlas doesn't show where I am.**
 Atlas needs your location while you use it. On your iPhone, open Settings › Privacy & Security ›
