@@ -22,11 +22,11 @@ and routes need an internet connection.
 **Atlas doesn't show where I am.**
 Atlas needs your location while you use it. On your iPhone, open Settings › Privacy & Security ›
 Location Services › Atlas Nav, choose While Using the App, and turn on Precise Location. Without
-your location you can still plan a route by long-pressing a start and then a destination on the
-map.
+your location you can still plan a route: after Directions, long-press where it starts.
 
-**How do I plan a route from somewhere else?**
-Long-press the start on the map, then the destination. Atlas shows up to two routes.
+**What does a long-press on the map do?**
+It drops a dot there and shows the best guess at what's there: a place, an address or a road,
+with what OpenStreetMap knows about it. Tap Directions for a route to the dot.
 
 **How do I try navigation without driving?**
 Tap the settings button, the three sliders at the bottom right, turn on Demo drive, and tap

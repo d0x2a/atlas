@@ -22,7 +22,7 @@ available.
 - Search places and addresses as you type, with nearer matches first.
 - See what a place is, whether it's open now, and its address, hours, phone and website, when
   OpenStreetMap has them.
-- Or long-press anywhere on the map.
+- Or long-press anywhere on the map for the best guess at what's there.
 
 ## Pick a route
 

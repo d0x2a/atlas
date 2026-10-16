@@ -26,7 +26,8 @@ a new one.
 
 **Search.** When you search, the app sends what you type to our search service at
 atlas-search.d0x2a.com. It also sends your location, or the middle of the map on screen when it
-doesn't have your location, so nearer places come first.
+doesn't have your location, so nearer places come first. When you long-press the map, the app
+sends the spot you pressed to the same service, to find what's there.
 
 **The map** is stored in the app, so showing it sends nothing.
 
@@ -37,7 +38,7 @@ identifiers or advertising identifier.
 
 Our services answer each request and don't store your routes or searches. Like any web service,
 they keep short technical logs: the time, the IP address, and the address requested, which for a
-search includes its text and the location sent with it. We use these logs only to keep the
+search includes its text and the location sent with it, and for a long-press the spot pressed. We use these logs only to keep the
 services running and secure, delete them within 30 days, and never use them to identify you.
 
 ## Location on your iPhone
@@ -45,8 +46,8 @@ services running and secure, delete them within 30 days, and never use them to i
 Atlas asks for your location while you use it, to show where you are and to guide you. During
 navigation it keeps guiding when the screen is locked or another app is in front, and it stops
 when navigation ends. You can turn location off in Settings › Privacy & Security › Location
-Services. You can still use the map, and plan a route by long-pressing a start and a
-destination.
+Services. You can still use the map and search, and Directions then asks you to long-press
+where the route starts.
 
 Your settings, such as what routes avoid, voice guidance and Demo drive, are stored only on your
 iPhone.
