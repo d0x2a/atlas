@@ -1,11 +1,11 @@
 ---
 title: "Atlas: Paper Map Driving"
-description: Turn-by-turn navigation for Southern California, drawn like a printed road atlas.
+description: Turn-by-turn navigation for the United States, drawn like a printed road atlas.
 ---
 
 # Atlas: Paper Map Driving
 
-Atlas draws Southern California the way a printed road atlas does: cream paper, sepia roads,
+Atlas draws the United States the way a printed road atlas does: cream paper, sepia roads,
 hatched water and a vermilion route. Underneath it's a working navigation app for iPhone, with
 search, a choice of routes and spoken turn-by-turn guidance, built on OpenStreetMap.
 
@@ -13,9 +13,8 @@ Coming soon to the App Store, free, for iPhone with iOS 17 or later.
 
 ## Where it works
 
-The Los Angeles basin and Orange County down to San Diego and the border, east to San
-Bernardino, Riverside and Temecula. Outside that area the map is blank and routes aren't
-available.
+Across the United States: the lower 48 states, Alaska and Hawaii. Routes and search stop at the
+Canadian and Mexican borders, and Puerto Rico and the other territories aren't on the map yet.
 
 ## Find a place
 
@@ -46,8 +45,9 @@ from your desk or from anywhere.
 ## Good to know
 
 - The map keeps what you've seen and the route you're driving, so a dead zone doesn't blank it.
-  Download all of Southern California (375 MB) to have every street without a signal. Search and
-  routes need a connection.
+  Download the area around a place, 100 miles across, to have every street in it without a
+  signal; a city's area is up to about 265 MB, and you can keep several. Search and routes need a
+  connection.
 - Arrival times don't include live traffic.
 - No account, no ads, no tracking. The [privacy policy](privacy.md) says what the app sends.
 - Questions or problems: [support](support.md).

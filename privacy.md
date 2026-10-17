@@ -5,7 +5,7 @@ description: What Atlas, Paper Map Driving, sends from your iPhone, why, and wha
 
 # Atlas: Paper Map Driving privacy policy
 
-Effective 16 October 2026
+Effective 17 October 2026
 
 Atlas: Paper Map Driving ("Atlas") is an iPhone app made by Dox2A Labs LLC ("we"). This policy
 says what the app sends from your iPhone, why, and what we keep.
@@ -27,7 +27,9 @@ a new one.
 **Search.** When you search, the app sends what you type to our search service at
 atlas-search.d0x2a.com. It also sends your location, or the middle of the map on screen when it
 doesn't have your location, so nearer places come first. When you long-press the map, the app
-sends the spot you pressed to the same service, to find what's there.
+sends the spot you pressed to the same service, to find what's there. When you download an area,
+it sends the middle of the map to the same service, to name the area for the city or county
+there.
 
 **The map.** The app fetches the map in small square pieces, called tiles, from our map service at
 atlas-tiles.d0x2a.com, as you look at places on it. Asking for a tile says roughly which area is on
@@ -35,8 +37,8 @@ your screen: at street level, an area about two thirds of a mile across. Like an
 internet it comes from your IP address, but it carries nothing else about you. The app keeps the
 tiles it fetches on your iPhone, so it doesn't ask for them again. When you start navigating, it
 also fetches the tiles along your route, so the map keeps working where there's no signal. If you
-download all of Southern California in the app's settings, it fetches every tile once and then asks
-for none.
+download an area in the app's settings, 100 miles across, it fetches every tile in it once and then
+asks for none of them again.
 
 Nothing else leaves your iPhone. The app never sends your name, contacts, photos, device
 identifiers or advertising identifier.
@@ -46,9 +48,9 @@ identifiers or advertising identifier.
 Our services answer each request and don't store your routes or searches. Our map service keeps no
 record of which tiles are asked for. Like any web service, the routing and search services keep
 short technical logs: the time, the IP address, and the address requested, which for a search
-includes its text and the location sent with it, and for a long-press the spot pressed. We use
-these logs only to keep the services running and secure, delete them within 30 days, and never use
-them to identify you.
+includes its text and the location sent with it, for a long-press the spot pressed, and for a
+downloaded area the middle of the map. We use these logs only to keep the services running and
+secure, delete them within 30 days, and never use them to identify you.
 
 ## Location on your iPhone
 

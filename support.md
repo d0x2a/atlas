@@ -1,6 +1,6 @@
 ---
 title: Atlas support
-description: Help with Atlas, Paper Map Driving, navigation for Southern California.
+description: Help with Atlas, Paper Map Driving, navigation for the United States.
 ---
 
 # Atlas support
@@ -11,9 +11,9 @@ your iPhone model and iOS version, and what you were doing when it happened.
 ## Common questions
 
 **Where does Atlas work?**
-In Southern California: the Los Angeles basin and Orange County down to San Diego and the
-border, east to San Bernardino, Riverside and Temecula. Outside that area the map is blank and
-routes aren't available, but Demo drive still shows how navigation works.
+Across the United States: the lower 48 states, Alaska and Hawaii. Routes and search stop at the
+Canadian and Mexican borders, and Puerto Rico and the other territories aren't on the map yet.
+Outside the US the app opens on Los Angeles, and Demo drive still shows how navigation works.
 
 **What does it need?**
 An iPhone with iOS 17 or later, and an internet connection: the app fetches the map as you look
@@ -21,9 +21,11 @@ around, and search and routes come from our servers.
 
 **Does the map work without a signal?**
 Atlas keeps the parts of the map you've looked at. When you start navigating it also fetches the
-map along your route, so a dead zone doesn't blank it. To have all of Southern California on your
-iPhone, open the app's settings (the button above the locate button) and tap **Download Southern
-California**: 375 MB, over Wi-Fi. Search and new routes still need a connection.
+map along your route, so a dead zone doesn't blank it. To keep a whole area on your iPhone, move
+the map over it, open the app's settings (the button above the locate button) and tap **Download
+this area**: 100 miles across around the middle of the map, over Wi-Fi. A city's area is up to
+about 265 MB. You can keep several, and remove each from the same list. Search and new routes
+still need a connection.
 
 **Atlas doesn't show where I am.**
 Atlas needs your location while you use it. On your iPhone, open Settings › Privacy & Security ›
